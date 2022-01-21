@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-Design</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a data-aos="zoom-in-left" data-aos-delay="150" href="index.html" class="logo"> <i class="fas fa-hiking"></i> Virton design </a>
+
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="index.html">Главная</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="index2.html">О нас</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="index3.html">Пакеты услуг</a>
+        <a data-aos="zoom-in-left" data-aos-delay="700" href="index10.html">Идеи</a>
+        <a data-aos="zoom-in-left" data-aos-delay="800" href="index15.html">Отзывы и контакты</a>
+    </nav>
+
+    <div class="icons">
+        <div data-aos="zoom-in-left" data-aos-delay="950" id="menu-btn" class="fas fa-bars"></div>
+        <a data-aos="zoom-in-left" data-aos-delay="1100" href="#" class="fas fa-shopping-cart"></a>
+        <div data-aos="zoom-in-left" data-aos-delay="1200" id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- search form  -->
+
+<div class="search-form">
+
+    <div id="close-search" class="fas fa-times"></div>
+
+    <form action="">
+        <input type="search" name="" placeholder="Поиск" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div  data-aos="zoom-in-up" data-aos-duration="1600" class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span data-aos="fade-up" data-aos-delay="150" >МЫ-</span>
+                        <h3 data-aos="fade-up" data-aos-delay="300">ВАШИ ДРУЗЬЯ</h3>
+                        <p data-aos="fade-up" data-aos-delay="500">Большая команда профессионалов поможет выбрать вам подходящий дизайн под ваши нужды.</p>
+                        <a data-aos="fade-up" data-aos-delay="750" href="index2.html" class="btn">начать</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span data-aos="fade-up" data-aos-delay="150">НЕТУ ИДЕЙ?</span>
+                        <h3 data-aos="fade-up" data-aos-delay="300">ПОМОЖЕМ</h3>
+                        <p data-aos="fade-up" data-aos-delay="600" >Если у вас совсем нету идей, вы можете посмотреть некоторые интересные дизайны прямо на нашем сайте!</p>
+                        <a data-aos="fade-up" data-aos-delay="800" href="index2.html" class="btn">Начать</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span data-aos="fade-up" data-aos-delay="150">СВЕЖИЙ ВЗГЛЯД</span>
+                        <h3 data-aos="fade-up" data-aos-delay="300" >НА СТАРЫЕ ПРОБЛЕМЫ</h3>
+                        <p data-aos="fade-up" data-aos-delay="600" >Мы подберём самый лучший дизайн, именно для вас. Если у вас закончились интересные мысли по поводу участка, мы всегда поможем!</p>
+                        <a data-aos="fade-up" data-aos-delay="800" href="index2.html" class="btn">начать</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+ AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+    </script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
